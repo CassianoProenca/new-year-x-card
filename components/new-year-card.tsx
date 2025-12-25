@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import { useEffect, useRef, useState } from "react"
 import { Card } from "@/components/ui/card"
@@ -6,7 +6,7 @@ import { Sparkles, Volume2, VolumeX } from "lucide-react"
 import { Fireworks } from "./fireworks"
 import { Confetti } from "./confetti"
 
-const names = ["Marcia", "José Antônio", "Cassiano", "Fabiano"]
+const names = ["Dr Proen\u00e7a e Fam\u00edlia"]
 
 export function NewYearCard() {
   const audioRef = useRef<HTMLAudioElement>(null)
@@ -184,3 +184,6 @@ export function NewYearCard() {
     </>
   )
 }
+
+
+

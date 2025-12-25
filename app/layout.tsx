@@ -16,8 +16,8 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  title: "Feliz Ano Novo 2026",
-  description: "Cartão de Ano Novo da família",
+  title: "Feliz Ano Novo 2026 | Cartão Corporativo",
+  description: "Cartão de Ano Novo corporativo para a empresa",
   generator: "v0.app",
   icons: {
     icon: [
@@ -52,3 +52,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+
